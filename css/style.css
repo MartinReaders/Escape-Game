@@ -1,0 +1,110 @@
+html,body{
+	height: 100%;
+}
+
+body{
+	background: url('../img/a9529a5067aa1f2fc995679ac89f10ad.gif')-100px -100px no-repeat;;
+  	background-size: cover; 
+  	background-position: center center;
+  	background-attachment: fixed;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 25px;
+	transition: background-position .5s ease-out;
+
+
+}
+
+embed{
+	opacity: 0;
+}
+a{
+	font-style: none;
+	text-decoration: none;
+	color: white;
+}
+.container *{
+	position: relative;
+	margin: 0;
+
+}
+h1{
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	opacity: 1;
+	
+}
+.telecom{
+	position: absolute;
+	top: 500px;
+	left: 600px;
+
+}
+
+.accueil{
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	opacity: 1;
+}
+
+.projet {
+	position: absolute;
+	top: 80px;
+	left: 300px;
+}
+
+.acteurs{
+	position: absolute;
+	top: 150px;
+	right: 300px;
+}
+.plan{
+	position: absolute;
+	top: 80vh;
+	right: 150px;
+
+}
+.les-enigmes{
+	position: absolute;
+	top: 70vh;
+	left: 100px;
+
+}
+
+.projet:hover{
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.les-enigmes:hover{
+	 -webkit-transform: rotateZ(25deg);
+  -ms-transform: rotateZ(25deg);
+  transform: rotateZ(25deg);
+}
+.acteurs:hover{
+	 -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
+
+.plan:hover{
+	 box-shadow:
+    1px 1px #53ea93,
+    2px 2px #53ea93,
+    3px 3px #53ea93,
+    4px 4px #53ea93,
+    5px 5px #53ea93,
+    6px 6px #53ea93,
+    7px 7px #53ea93;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+.telecom:hover{
+	transform: translateX(-7px);
+}
+
+.accueil:hover{
+	opacity: 0.5;
+}
+
